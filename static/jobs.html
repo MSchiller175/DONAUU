@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Jobs - DonauCity RP{% endblock %}
+{% block header_title %}Jobs{% endblock %}
+{% block header_subtitle %}Finde deinen Traumberuf in Baden{% endblock %}
+
+{% block content %}
+<div class="content-container">
+    <div class="jobs-grid">
+        <!-- Staatliche Jobs -->
+        <div class="job-category">
+            <h2>👮 Staatliche Jobs</h2>
+            <div class="job-cards">
+                <div class="job-card">
+                    <div class="job-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Polizist</h3>
+                    <p>Sorge für Recht und Ordnung in Baden.</p>
+                    <ul>
+                        <li>Streifendienst</li>
+                        <li>Ermittlungen</li>
+                        <li>Verkehrskontrolle</li>
+                    </ul>
+                </div>
+                
+                <div class="job-card">
+                    <div class="job-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Sanitäter</h3>
+                    <p>Rette Leben und hilf Menschen in Not.</p>
+                    <ul>
+                        <li>Notfallversorgung</li>
+                        <li>Krankentransport</li>
+                        <li>Erste Hilfe</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zivile Jobs -->
+        <div class="job-category">
+            <h2>🚗 Zivile Jobs</h2>
+            <div class="job-cards">
+                <div class="job-card">
+                    <div class="job-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>ÖAMTC</h3>
+                    <p>Repariere und Tuning-Möglichkeiten.</p>
+                    <ul>
+                        <li>Fahrzeugreparatur</li>
+                        <li>Tuning</li>
+                        <li>Fahrzeugwartung</li>
+                    </ul>
+                    <a href="https://discord.gg/weXTcsrrpg" class="button primary" target="_blank">
+                        <i class="fab fa-discord"></i> Discord beitreten
+                    </a>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Logistiker</h3>
+                    <p>Transportiere Waren durch die Stadt.</p>
+                    <ul>
+                        <li>Warentransport</li>
+                        <li>Lieferungen</li>
+                        <li>Spedition</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Support -->
+        <div class="support-section">
+            <h2>❓ Fragen zu Jobs?</h2>
+            <p>Unser Team hilft dir bei der Berufswahl!</p>
+            <div class="support-buttons">
+                <a href="https://discord.gg/donaucity" class="button primary">
+                    <i class="fab fa-discord"></i> Support kontaktieren
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

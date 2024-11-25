@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}Regelwerk - DonauCity RP{% endblock %}
+
+{% block header_title %}Regelwerk{% endblock %}
+{% block header_subtitle %}Unsere Community Richtlinien{% endblock %}
+
+{% block content %}
+<div class="content-container">
+    <div class="rules-grid">
+        <!-- Allgemeine Regeln -->
+        <div class="rules-category">
+            <h2>📜 Allgemeine Regeln</h2>
+            <div class="rules-list">
+                <div class="rule-item">
+                    <h3>1. Respektvoller Umgang</h3>
+                    <p>Behandle alle Spieler mit Respekt. Beleidigungen, Diskriminierung und Belästigung werden nicht toleriert.</p>
+                </div>
+                <div class="rule-item">
+                    <h3>2. Roleplay Qualität</h3>
+                    <p>Bleibe stets in deiner Rolle und verhalte dich realistisch. Metagaming und Powergaming sind verboten.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gameplay Regeln -->
+        <div class="rules-category">
+            <h2>🎮 Gameplay Regeln</h2>
+            <div class="rules-list">
+                <div class="rule-item">
+                    <h3>3. New Life Rule</h3>
+                    <p>Nach dem Tod vergisst dein Charakter die letzten 30 Minuten. Alte Konflikte dürfen nicht wieder aufgenommen werden.</p>
+                </div>
+                <div class="rule-item">
+                    <h3>4. Fahrzeug Regeln</h3>
+                    <p>Fahre regelkonform und realistisch. Übermäßiges Rammen oder unrealistisches Fahrverhalten ist untersagt.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Support -->
+        <div class="support-section">
+            <h2>❓ Fragen oder Unklarheiten?</h2>
+            <p>Unser Support-Team steht dir bei Fragen zum Regelwerk zur Verfügung.</p>
+            <div class="support-buttons">
+                <a href="https://discord.gg/donaucity" class="button primary">
+                    <i class="fab fa-discord"></i> Support kontaktieren
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
